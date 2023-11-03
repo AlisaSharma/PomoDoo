@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>PomoDoo</title>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"> <img src="img/img.jpg" alt="logo">  
+                 <a href="about.html"><h2>PomoDoo</h2></a>
+                </div>
+            <div class="container1">
+                <p>Click ↓ to listen</p>
+                <img src="img/play.jpg" id="icon">
+            </div>
+            <audio id="song1">
+                <source src="music/music1.mp3" type="audio/mp3">
+            </audio>
+        </ul>
+    </nav> 
+    <div id="container">
+        <a href="index.html">Break</a>
+        <!--Work timer-->
+        <div id="break-timer" class="timer">
+            <p id="b_minutes">5</p> <p id="semicolon">:</p> <p id="b_seconds">00</p>
+        </div>
+         
+
+        <button id="start" class="btn" onclick="audio.play();">Start</button>
+        <button id="stop" class="btn">Pause</button>
+        <button id="reset" class="btn">Reset</button>
+    </div>
+    <div class="container">
+        <h1>Add tasks:</h1>
+        <input id="inputField" type="text"><button id="addToDo">Add</button>
+        <div class="to-dos" id="toDoContainer">
+        </div>
+    </div>
+    <script src="main1.js"></script>
+</body>
+</html>

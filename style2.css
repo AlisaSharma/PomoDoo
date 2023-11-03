@@ -1,0 +1,60 @@
+html{
+    background-color: rgba(236, 138, 240, 0.87);
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*logo and navbar*/
+.logo{
+    
+    margin: auto;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(230, 100, 235, 0.87);
+    border-radius: 80px;
+}
+
+.logo:hover{
+    background-color: rgba(231, 89, 236, 0.87);
+}
+
+.logo img{
+    width: 23%;
+}
+
+.navbar{
+    display: flex;
+    padding: 0px;
+    color: white;
+}
+.nav-list a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    right: 14px;
+}
+
+.container a{
+    color: white;
+    text-decoration: none;  
+}
+
+h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:white;
+}
+
+h2{
+    color: white;
+    text-decoration: none;
+    
+}
+
+p{
+    color: white ;
+}
